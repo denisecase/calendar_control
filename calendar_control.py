@@ -25,7 +25,7 @@ APPLICATION_NAME = 'Google Calendar API Quickstart'
 # stored credentials.
 """
 
-sem_start =  datetime.date(2015, 8, 31)
+sem_start =  datetime.date(2016, 1, 11)
 wks_in_sem = 15
 color_id = 10
                                     
@@ -103,8 +103,8 @@ def main():
     """
     # add recurring events	
     """
-    #for i in range(1, wks_in_sem + 1):
-    for i in range(14,17):
+    for i in range(1, wks_in_sem + 1):
+    #for i in range(14,17):
         weekstr = 'Week ' + str(i)
         print (weekstr)
         
