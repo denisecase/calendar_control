@@ -18,6 +18,13 @@ During installation, check the "Git Bash Here" option.
 Then, from Windows Explorer, you can open a Git Bash window by right-clicking on a folder
 and execute Linux commands in that location. 
 
+Edit the semester start date on line 28.
+Edit the number of weeks in the semester on line 29.
+
+Open a command window as administrator in the calendar_control folder, and type:
+> py calendar_control.py
+
+
 
 
 
